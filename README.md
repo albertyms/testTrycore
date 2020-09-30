@@ -1,5 +1,10 @@
+With Docker:
+        1.1. Compiler component with maven, run the command: mvn clean install -Dmaven.test.skip=true
+        1.2. Run the command: docker-compose up --build (Docker must be installed).
+        1.3. Run the postman collections
+
 Springboot/Maven:
-    NOTE: To run with this option it is necessary to have a PostgreSQL database with a database called "techtest"
+    NOTE: To run with this option it is necessary to have a PostgreSQL database with a database called "testtrycore"
           and change the connection string to the database in the application.properties file so that the scripts 
           can be executed table creation.
     2.1. Compile the project with the command: mvn clean install
